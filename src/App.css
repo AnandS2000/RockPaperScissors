@@ -1,0 +1,96 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+  background: #f6d1aa;
+}
+
+.container{
+  text-align: center;
+  padding: 20px;
+}
+
+h1 span:nth-child(1) {
+  color: #4456ff;
+}
+
+h1 span:nth-child(2) {
+  color:#ec3e3e
+}
+
+h1 span:nth-child(3) {
+  color:#c412b2
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 4rem;
+  margin-bottom: 40px;
+}
+
+.your-choice , .comp-choice{
+  width: 120px;
+  height: 120px;
+  border: 1px solid #999;
+  border-radius: 60px;
+  font-size: 70px;
+  text-align: center;
+  line-height: 7.5rem;
+  background: #fff;
+}
+
+.you, .comp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.pick{
+  padding: 10px;
+}
+
+.choice{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.rock, .paper, .scissors{
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #999;
+  border-radius: 25px;
+  line-height: 3rem;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.result{
+  margin: 20px 0px;
+  background: #afabab;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkgreen;
+  font-weight: 900;
+  
+}
+
+button{
+  /* width: 80px;
+  height: 40px; */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background: #4456ff;
+  color: #fff;
+  cursor: pointer;
+}
